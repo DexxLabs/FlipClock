@@ -43,7 +43,7 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; background: #19
   display: flex;
   flex-direction: row;
   gap: 0;
-  filter: drop-shadow(0 16px 40px rgba(0, 0, 0, 0.55));
+  filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.30));
 }
 
 /* ─── AM/PM badge overlaid on hours group ─────────────────── */
