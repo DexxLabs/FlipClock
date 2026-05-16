@@ -63,11 +63,11 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; background: #00
    FLIP CARD — one digit tile
    ═══════════════════════════════════════════════════════════ */
 
-/* Card dimensions — large, fills the viewport */
+/* Card dimensions — squarish slab (2 cards wide ≈ 1 card tall) */
 .flip-card {
   position: relative;
-  width:  clamp(160px, 24vw, 380px);
-  height: clamp(220px, 55vh, 520px);
+  width:  clamp(130px, 18vw, 270px);
+  height: clamp(210px, 50vh, 520px);
 }
 
 /* Shared face */
@@ -89,7 +89,7 @@ html, body, #root { width: 100%; height: 100%; overflow: hidden; background: #00
 .flip-bottom span,
 .flip-fold-top    span,
 .flip-fold-bottom span {
-  font-size: clamp(150px, 21vw, 320px);
+  font-size: clamp(130px, 38vh, 390px);
   font-weight: 700;
   line-height: 1;
   font-variant-numeric: tabular-nums;
